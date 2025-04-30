@@ -1,0 +1,7 @@
+# FastAPI 入口:
+import_path: main_sensor_api:app # 格式: module_name:fastapi_app_instance
+
+http_options:
+  host: "0.0.0.0" # 监听所有网络接口
+  port: 8000     # 监听的端口
+  # location: "EveryNode" # 或 "HeadOnly"
